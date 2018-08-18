@@ -1,0 +1,13 @@
+To generate a fat JAR - to use the embedded tomcat
+1). Run as maven clean
+2). Run as maven install
+4). go to target dir and copy the flightreservation-*.jar
+
+To generate a war 
+1). in the pom.xml change packaging to war
+2). main app should extend SpringBootServletInitializer
+3). Override the configure method
+4). do a maven update
+5). Run as maven clean
+6). Run as maven install
+4). go to target dir and copy the flightreservation-*.war
